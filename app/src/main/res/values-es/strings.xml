@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nick Names GM</string>
+    <string name="textview_name">Escribe tu Nick</string>
+    <string name="textbox_name">Nick</string>
+    <string name="button_generate">Generar Nick</string>
+    <string name="button_copy">Copiar</string>
+    <string name="title_activity_splash">Nick Names GM</string>
+    <string name="copied">Copiado al portapapeles</string>
+</resources>

@@ -1,0 +1,192 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <string-array name="dato1">
+        <item>꧁ঔৣ☬✞</item>
+        <item>꧁༒</item>
+        <item>꧁𒈞</item>
+        <item>ԿՁՕ</item>
+        <item>╰‿╯</item>
+        <item>☣</item>
+        <item>☛</item>
+        <item>☞</item>
+        <item>☢</item>
+        <item>⚧</item>
+        <item>⚤</item>
+        <item>⚦</item>
+        <item>ᴳᵒᵈ</item>
+        <item>╔═╤╼</item>
+        <item>╾╤═╗</item>
+        <item>●ω●</item>
+        <item>▄︻̷̿┻̿═━一</item>
+        <item>╾━╤デ╦︻</item>
+        <item>♔〘Ł€Ꮆ€ŇĐ〙♔</item>
+        <item>꧁</item>
+        <item>☠</item>
+        <item>✔</item>
+        <item>✖</item>
+        <item>⚥</item>
+        <item>╭∩╮(︶_︶)</item>
+        <item>(っ◔◡◔)っ</item>
+        <item>(͡ ʖ ͡)</item>
+        <item>(ˋ▂ˊ)</item>
+        <item>(づ￣ ³￣)づ</item>
+        <item>▂▃▅▆▇█</item>
+        <item>▂▃▄▅▆▇█▓▒░</item>
+        <item>⊙︿⊙</item>
+        <item>⊙ω⊙</item>
+        <item>⊙▂⊙</item>
+        <item>⊙０⊙</item>
+        <item>(O^~^O)</item>
+        <item>꧁H҉A҉C҉K҉E҉R҉꧂</item>
+        <item>꧁ঔৣ☬✞DΐaϻaͥŇtͣeͫ✞☬ঔৣ꧂</item>
+        <item>✇</item>
+        <item>☝</item>
+        <item>☟</item>
+        <item>☩</item>
+        <item>☭</item>
+        <item>❀</item>
+        <item>ツ</item>
+        <item>㋡</item>
+        <item>✘</item>
+        <item>⚢</item>
+        <item>⚩</item>
+        <item>⚨</item>
+        <item>↯</item>
+        <item>↬</item>
+        <item>↫</item>
+        <item>↪</item>
+        <item>↩</item>
+        <item>↣</item>
+        <item>↤</item>
+        <item>↺</item>
+        <item>↹</item>
+        <item>↷</item>
+        <item>↶</item>
+        <item>↵</item>
+        <item>↳</item>
+        <item>✌</item>
+        <item>✪</item>
+        <item>✟</item>
+        <item>↚</item>
+        <item>↛</item>
+        <item>↜</item>
+        <item>↝</item>
+        <item>↞</item>
+        <item>↟</item>
+        <item>ヴ</item>
+        <item>ジ</item>
+        <item>シ</item>
+        <item>❥</item>
+        <item>☯</item>
+        <item>☮</item>
+        <item>✡</item>
+        <item>꧁༒☬ŠCØŔPĨØŊ☬༒꧂</item>
+
+
+
+
+
+    </string-array>
+
+    <string-array name="dato2">
+        <item>☬ঔৣ꧂</item>
+        <item>༒꧂</item>
+        <item>𒈞꧂</item>
+        <item>ԿՁՕ™</item>
+        <item>╰‿╯</item>
+        <item>☣</item>
+        <item>☚</item>
+        <item>☜</item>
+        <item>☢</item>
+        <item>⚧</item>
+        <item>⚤</item>
+        <item>⚦</item>
+        <item>ᴳᵒᵈ</item>
+        <item>╾╤═╗</item>
+        <item>╔═╤╼</item>
+        <item>●ω●</item>
+        <item>▄︻̷̿┻̿═━一</item>
+        <item>╾━╤デ╦︻</item>
+        <item>♔〘Ł€Ꮆ€ŇĐ〙♔</item>
+        <item>꧂</item>
+        <item>☠</item>
+        <item>✔</item>
+        <item>✖</item>
+        <item>⚥</item>
+        <item>╭∩╮(︶_︶)</item>
+        <item>(っ◔◡◔)っ</item>
+        <item>(͡ ʖ ͡)</item>
+        <item>(ˋ▂ˊ)</item>
+        <item>(づ￣ ³￣)づ</item>
+        <item>█▇▆▅▃▂</item>
+        <item>░▒▓█▇▆▅▄▃▂</item>
+        <item>⊙︿⊙</item>
+        <item>⊙ω⊙</item>
+        <item>⊙▂⊙</item>
+        <item>⊙０⊙</item>
+        <item>(O^~^O)</item>
+        <item>꧁H҉A҉C҉K҉E҉R҉꧂</item>
+        <item>꧁ঔৣ☬✞DΐaϻaͥŇtͣeͫ✞☬ঔৣ꧂</item>
+        <item>✇</item>
+        <item>☝</item>
+        <item>☟</item>
+        <item>☩</item>
+        <item>☭</item>
+        <item>❀</item>
+        <item>ツ</item>
+        <item>㋡</item>
+        <item>✘</item>
+        <item>⚢</item>
+        <item>⚩</item>
+        <item>⚨</item>
+        <item>↯</item>
+        <item>↬</item>
+        <item>↫</item>
+        <item>↪</item>
+        <item>↩</item>
+        <item>↣</item>
+        <item>↤</item>
+        <item>↺</item>
+        <item>↹</item>
+        <item>↷</item>
+        <item>↶</item>
+        <item>↵</item>
+        <item>↳</item>
+        <item>✌</item>
+        <item>✪</item>
+        <item>✟</item>
+        <item>↚</item>
+        <item>↛</item>
+        <item>↜</item>
+        <item>↝</item>
+        <item>↞</item>
+        <item>↟</item>
+        <item>ヴ</item>
+        <item>ジ</item>
+        <item>シ</item>
+        <item>❥</item>
+        <item>☯</item>
+        <item>☮</item>
+        <item>✡</item>
+        <item>꧁༒☬ŠCØŔPĨØŊ☬༒꧂</item>
+    </string-array>
+
+</resources>

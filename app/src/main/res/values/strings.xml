@@ -1,0 +1,20 @@
+<resources>
+    <!-- Admob Prueba
+    <string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersti" translatable="false">ca-app-pub-3940256099942544/1033173712</string> -->
+
+
+    <!-- Admob Final-->
+    <string name="banner" translatable="false">ca-app-pub-1564681082377873/3135229108</string>
+    <string name="intersti" translatable="false">ca-app-pub-1564681082377873/2277443003</string>
+
+
+    <string name="app_name">Nick Names GM</string>
+    <string name="textview_name">Write Your Nick</string>
+    <string name="textbox_name">NickName</string>
+    <string name="button_generate">Generate Nick</string>
+    <string name="button_copy">Copy</string>
+    <string name="title_activity_splash">Nick Names GM</string>
+    <string name="copied">Copied</string>
+
+</resources>

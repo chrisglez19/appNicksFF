@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344955"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".90"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="80dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="80dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="center"
+                    tools:layout_editor_absoluteY="50dp">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/textview_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="50dp">
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".30"
+                        android:entries="@array/dato1"/>
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="0dp"
+                        android:layout_weight=".40"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_text"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-medium"
+                        android:inputType="textPersonName"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="0dp"
+                        android:layout_weight=".30"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/dato2"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="102dp">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="196dp"
+                        android:layout_height="51dp"
+                        android:background="@drawable/fondo_boton"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_generate"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr1"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc1"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr2"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc2"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr3"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc3"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr4"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc4"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr5"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc5"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr6"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc6"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr7"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc7"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr8"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc8"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr9"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc9"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr10"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc10"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="409dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="195dp">
+
+                    <TextView
+                        android:id="@+id/textViewr11"
+                        android:layout_width="255dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/textbox_name"
+                        android:textAlignment="center"
+                        android:textColor="#B4C1CC"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/botonc11"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fondo_boton_copy"
+                        android:fontFamily="@font/baloo_thambi"
+                        android:gravity="center"
+                        android:text="@string/button_copy"
+                        android:textAllCaps="false"
+                        android:textColor="#232F34"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".10"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner"
+
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
